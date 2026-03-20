@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "513997470520",
+    "project_id": "royalgym-8852c",
+    "storage_bucket": "royalgym-8852c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513997470520:android:2b8b18242e2119cc555fcd",
+        "android_client_info": {
+          "package_name": "com.aman_ldh67.royalgym"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513997470520-dt9r3i88uo16jhav2n99mqrja4bpvfio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtWH8Z1I4tI8ajlFlp0ObnTwQIMMI6HIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513997470520-dt9r3i88uo16jhav2n99mqrja4bpvfio.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
