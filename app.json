@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Royal Health Club",
+    "slug": "Royal-gym-management",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splaish-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#020617"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.aman_ldh67.royalgym",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-7078968623067562~8648970842"
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#020617"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/72eb0f5d-36c8-4115-bb24-d41f7564c028"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "72eb0f5d-36c8-4115-bb24-d41f7564c028"
+      }
+    },
+    "owner": "aman_ldh67"
+  }
+}

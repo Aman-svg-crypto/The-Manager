@@ -1,0 +1,8 @@
+{
+  "extends": "expo/tsconfig.base",           // make sure `expo` is installed
+  "compilerOptions": {
+    "strict": true
+  },
+  "include": ["**/*.ts", "**/*.tsx"],        // what to type‑check
+  "exclude": ["node_modules"]                // don’t wander into dependencies
+}
