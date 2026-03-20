@@ -16,20 +16,20 @@
     },
     "android": {
       "package": "com.aman_ldh67.royalgym",
-      "googleServicesFile": "./google-services.json",
-      "config": {
-        "googleMobileAdsAppId": "ca-app-pub-7078968623067562~8648970842"
-      },
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/icon.png",
-        "backgroundColor": "#020617"
-      }
+      "googleServicesFile": "./google-services.json"
     },
+    "plugins": [
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-7078968623067562~8648970842"
+        }
+      ],
+      "expo-av",
+      "react-native-reanimated/plugin"
+    ],
     "updates": {
       "url": "https://u.expo.dev/72eb0f5d-36c8-4115-bb24-d41f7564c028"
-    },
-    "runtimeVersion": {
-      "policy": "appVersion"
     },
     "extra": {
       "eas": {
