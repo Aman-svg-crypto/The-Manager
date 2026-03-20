@@ -15,9 +15,13 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.aman_ldh67.royalgym",
-      "config": {
-        "googleMobileAdsAppId": "ca-app-pub-7078968623067562~8648970842"
+  "googleServicesFile": "./google-services.json", 
+  "package": "com.aman_ldh67.royalgym",
+  "config": {
+    "googleMobileAdsAppId": "ca-app-pub-7078968623067562~8648970842"
+  },
+  ...
+}
       },
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
