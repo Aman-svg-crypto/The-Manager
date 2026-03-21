@@ -11,21 +11,22 @@
       "resizeMode": "contain",
       "backgroundColor": "#020617"
     },
-    "ios": { "supportsTablet": true },
+    "ios": {
+      "supportsTablet": true
+    },
     "android": {
       "package": "com.aman_ldh67.royalgym",
       "googleServicesFile": "./google-services.json"
     },
     "plugins": [
+      "expo-av",
+      "react-native-reanimated/plugin",
       [
         "react-native-google-mobile-ads",
         {
           "androidAppId": "ca-app-pub-7078968623067562~8648970842"
         }
-      ],
-      "expo-av",
-      "react-native-reanimated/plugin",
-      "expo-font"
+      ]
     ],
     "extra": {
       "eas": {
