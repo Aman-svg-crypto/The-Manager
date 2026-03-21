@@ -3,7 +3,7 @@ module.exports = function(api) {
   return {
     presets: ['babel-preset-expo'],
     plugins: [
-      'react-native-reanimated/plugin', // यह लाइन जोड़ना अनिवार्य है
+      'react-native-reanimated/plugin',
     ],
   };
 };
