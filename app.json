@@ -11,9 +11,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#020617"
     },
-    "ios": {
-      "supportsTablet": true
-    },
+    "ios": { "supportsTablet": true },
     "android": {
       "package": "com.aman_ldh67.royalgym",
       "googleServicesFile": "./google-services.json"
@@ -26,16 +24,13 @@
         }
       ],
       "expo-av",
-      "react-native-reanimated/plugin"
+      "react-native-reanimated/plugin",
+      "expo-font"
     ],
-    "updates": {
-      "url": "https://u.expo.dev/72eb0f5d-36c8-4115-bb24-d41f7564c028"
-    },
     "extra": {
       "eas": {
         "projectId": "72eb0f5d-36c8-4115-bb24-d41f7564c028"
       }
-    },
-    "owner": "aman_ldh67"
+    }
   }
 }
